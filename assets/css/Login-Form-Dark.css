@@ -1,0 +1,86 @@
+.login-dark {
+  height: 1000px;
+  background: #475d62 url(../../assets/img/star-sky.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.login-dark form {
+  max-width: 330px;
+  width: 90%;
+  background-color: #1e2833;
+  padding: 40px;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login-dark .illustration {
+  text-align: center;
+  padding: 15px 0 20px;
+  font-size: 100px;
+  color: #2980ef;
+}
+
+.login-dark form .form-control {
+  background: #2c3e50;
+  border: none;
+  border-bottom: 5px solid #434a52;
+  border-right: 5px solid #434a52;
+  border-radius: 35px;
+  box-shadow: none;
+  outline: none;
+  color: #ffffff;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.login-dark form .btn-primary {
+  background: rgb(33, 74, 128);
+  border: 2px solid #ffffff00;
+  border-radius: 30px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none !important;
+}
+
+.login-dark form .btn-primary:hover,
+.login-dark form .btn-primary:active {
+  background-color: #326ba3;
+  color: #00ffcc;
+}
+
+.login-dark form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-dark form .forgot:hover,
+.login-dark form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.login-dark form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}

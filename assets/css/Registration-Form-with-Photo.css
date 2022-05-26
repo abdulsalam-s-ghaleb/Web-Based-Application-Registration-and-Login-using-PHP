@@ -1,0 +1,110 @@
+.register-photo {
+  background-image: url(../../assets/img/star-sky.jpg);
+  height: auto;
+  min-height: 1080px;
+  width: 100%;
+  padding: 250px 0;
+  background-size: cover;
+}
+
+.register-photo .image-holder {
+  display: table-cell;
+  width: auto;
+  background: url(../../assets/img/BPM_0115_V3.jpg);
+  background-size: cover;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.register-photo .form-container {
+  display: table;
+  max-width: 1080px;
+  max-height: 1080px;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px 6px rgb(0 0 0 / 25%);
+}
+
+.register-photo form,
+div.new-div,
+div.new-div {
+  display: table-cell;
+  width: 410px;
+  background-color: rgb(30, 40, 51);
+  padding: 40px 60px;
+  color: #505e6c;
+}
+
+@media (max-width: 991px) {
+  .register-photo form,
+  div.new-div {
+    padding: 40px;
+  }
+}
+
+.register-photo form h2,
+div.new-div h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.register-photo form .form-control,
+div.new-div .form-control {
+  background: #2c3e50;
+  border: none;
+  border-bottom: 5px solid #434a52;
+  border-right: 5px solid #434a52;
+  border-radius: 35px;
+  box-shadow: none;
+  outline: none;
+  color: #ffffff;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register-photo form .form-check,
+div.new-div .form-check {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+}
+
+.register-photo form .btn-primary,
+div.new-div .btn-primary {
+  background: rgb(33, 74, 128);
+  border: 2px solid #ffffff00;
+  border-radius: 30px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none !important;
+}
+
+.register-photo form .btn-primary:hover,
+div.new-div .btn-primary:hover,
+.register-photo form .btn-primary:active,
+div.new-div .btn-primary:active {
+  background-color: #326ba3;
+  color: #00ffcc;
+}
+
+.register-photo form .btn-primary:active,
+div.new-div .btn-primary:active {
+  transform: translateY(2px);
+}
+
+.register-photo form .already,
+div.new-div .already {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;
+  opacity: 0.9;
+  text-decoration: none;
+}

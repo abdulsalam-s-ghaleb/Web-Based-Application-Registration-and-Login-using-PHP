@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
